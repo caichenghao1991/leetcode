@@ -11,6 +11,7 @@ class Solution:
         def backtrack(start):
             if self.s == target:
                 res.append(track[:])
+                return
             if self.s > target:
                 return
             for i in range(start, len(candidates)):

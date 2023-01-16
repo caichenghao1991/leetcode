@@ -9,7 +9,6 @@ class Solution:
         def backtrack():
             if len(track) == len(nums):
                 res.append(track[:])
-            elif len(track) > len(nums):
                 return
             for i in range(len(nums)):
                 if used[i]:
