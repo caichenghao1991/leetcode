@@ -74,9 +74,7 @@ class Solution2:
             uf.union(xi, yi)
 
         for eq in equations_notsame:
-
             xi, yi = ord(eq[0]) - ord('a'), ord(eq[-1]) - ord('a')
             if uf.connected(xi, yi):
                 return False
-
         return True
