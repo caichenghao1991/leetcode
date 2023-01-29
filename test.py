@@ -1,5 +1,3 @@
-
-import heapq
-l= 'aac'
-
-print(l[0:1])
+import pandas as pd
+s=pd.Series({'aa':3})
+print(s)
